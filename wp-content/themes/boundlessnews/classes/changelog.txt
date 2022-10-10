@@ -1,0 +1,34 @@
+= 1.0.8 =
+* New - Revamped about page
+* New - Language file
+* Fixed - Header Logo and advertisement mobile display issue
+
+= 1.0.7 =
+* Update - Display slides if column 1 is selected on Gallery
+* Fixed - RTL issue on some theme layouts
+* Fixed - Some design glitch
+
+= 1.0.6 =
+* minor update on template and function
+* Added Minor CSS fixing
+
+= 1.0.5 =
+* Fixed Admin page issue
+* Minor CSS fixing
+
+= 1.0.4 =
+* Update adding about page and quick link fixed.
+* Minor issue fixed.
+
+= 1.0.3 =
+* Removed unused library.
+
+= 1.0.2 =
+* Removed wide layout function.
+* Regenerated language file.
+
+= 1.0.1 =
+* Added Demo Import feature
+
+= 1.0.0 =
+* Initial release.

@@ -1,0 +1,424 @@
+/*
+Theme Name: Hello Fashion
+Theme URI: https://blossomthemes.com/wordpress-themes/hello-fashion/
+Template: vilva
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Hello Fashion is an easy to use and mobile-friendly WordPress theme for professional bloggers. With Hello Fashion, you can create a website of different niches such as fashion, travel, lifestyle, beauty, recipes, makeup, journal, mom blog, coaching and much more. You can also choose from unlimited colors and 900+ Google Fonts to change your site look and feel with a single click. In addition, you can flaunt your Instagram posts and increase your followers. The newsletter integration will help you grow your email list and stay in touch with your readers. Hello Fashion is SEO-friendly, speed optimized, translation ready, RTL ready and WooCommerce compatible. Check demo at https://blossomthemes.com/theme-demo/?theme=hello-fashion, read the documentation at https://docs.blossomthemes.com/hello-fashion/, and get support at https://blossomthemes.com/support-ticket/.
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+Version: 1.0.2.1664163626
+Updated: 2022-09-26 03:40:26
+
+*/
+
+.post-layout-two.rightsidebar .site-main article, .post-layout-two.leftsidebar .site-main article {
+    width: 100%;
+}
+.site-main .entry-content h1, .site-main .entry-content h2, .site-main .entry-content h3, .site-main .entry-content h4, .site-main .entry-content h5, .site-main .entry-content h6 {
+    font-weight: 700;
+    font-family: var(--secondary-font);
+}
+.site-main .entry-content h1 {
+    font-size: 2.45em;
+}
+.site-main .entry-content h2 {
+    font-size: 2.11em;
+}
+.site-main .entry-content h3 {
+    font-size: 1.67em;
+}
+.site-main .entry-content h4 {
+    font-size: 1.33em;
+}
+.site-main .entry-content h5 {
+    font-size: 1.11em;
+}
+.site-main .entry-content h6 {
+    font-size: 0.89em;
+}
+.site-header.style-two {
+    margin-bottom: 20px;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    -o-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.site-header.style-two .header-t {
+    background-image: none;
+}
+.site-header.style-two .header-bottom {
+    border-bottom: none;
+    padding: 0;
+}
+.site-header.style-two .container {
+    max-width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 3%;
+}
+.site-header.style-two .secondary-menu, .site-header.style-two .right {
+    flex: 1;
+    display: flex !important;
+}
+.style-two .secondary-menu .toggle-btn {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: none;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+.style-two .secondary-menu .toggle-btn .toggle-bar {
+    height: 2px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    -moz-transition: all ease 0.35s;
+    -webkit-transition: all ease 0.35s;
+    -o-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+    margin: auto;
+}
+.style-two .secondary-menu .toggle-btn .toggle-bar:first-child {
+    top: -12px;
+}
+.style-two .secondary-menu .toggle-btn .toggle-bar:last-child {
+    bottom: -12px;
+}
+.style-two .secondary-menu .toggle-btn:hover .toggle-bar {
+    background-color: var primary color;
+}
+.style-two .secondary-menu .secondary-menu-list {
+    height: 100%;
+    width: 320px;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+    -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    -o-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.style-two .secondary-menu .mobile-menu {
+    height: calc(100% - 80px) !important;
+    width: 320px;
+    display: block !important;
+    position: relative;
+    margin-top: 80px !important;
+}
+.style-two .secondary-menu .secondary-menu-list .close {
+    height: 20px;
+    width: 20px;
+    left: auto;
+    right: 20px;
+    display: block;
+    background-image: none;
+    position: absolute;
+    top: 40px;
+    cursor: pointer;
+    color: inherit;
+    padding: 0;
+}
+.style-two .secondary-menu .secondary-menu-list .close .toggle-bar {
+    height: 2px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    -moz-transition: all ease 0.35s;
+    -webkit-transition: all ease 0.35s;
+    -o-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: "";
+    margin: auto;
+}
+.style-two .secondary-menu .secondary-menu-list .close .toggle-bar:last-child {
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.style-two .secondary-menu .secondary-menu-list .close:hover .toggle-bar {
+    background-color: #f00;
+}
+.style-two .secondary-menu ul li {
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+.style-two .secondary-menu ul li a {
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 15px;
+}
+.site-header.style-two .secondary-menu ul.nav-menu > li:first-child a {
+    padding-left: 15px;
+}
+.style-two .secondary-menu ul li.menu-item-has-children > a {
+    padding-right: 30px;
+}
+.style-two .secondary-menu ul li.menu-item-has-children .submenu-toggle {
+    height: 50px;
+    width: 25px;
+    flex: 1;
+    right: 5px;
+    font-size: inherit;
+    display: flex;
+    top: 0;
+    -moz-transition: all ease 0.35s;
+    -webkit-transition: all ease 0.35s;
+    -o-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+    flex-direction: column;
+    justify-content: center;
+    -moz-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    transform: none;
+    align-items: center;
+}
+.style-two .secondary-menu ul li.menu-item-has-children .submenu-toggle.active {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.style-two .secondary-menu ul ul {
+    width: 100%;
+    display: none;
+    position: static;
+    background-color: rgba(0,0,0,0.02);
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    visibility: visible;
+    opacity: 1;
+}
+.style-two .secondary-menu .mobile-menu.ps--active-y {
+    padding-left: 15px;
+}
+.site-header.style-two .site-branding {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.site-header.style-two .secondary-menu .ps__rail-y {
+    width: 10px;
+    position: absolute;
+    background-color: rgba(var(--primary-color-rgb);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+.site-header.style-two .secondary-menu .ps__rail-y .ps__thumb-y {
+    width: 6px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(var(--primary-color-rgb);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.site-header.style-two .secondary-menu .ps__rail-y .ps__thumb-y.ps--clicking, .site-header.style-two .secondary-menu .ps__rail-y .ps__thumb-y:hover {
+    background-color: rgba(var(--primary-color-rgb);
+}
+.site-header.style-two .header-bottom .main-navigation {
+    justify-content: center;
+}
+.header-t .header-search + .cart-block {
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid rgba(0,0,0,0.15);
+}
+.site-banner.style-two .banner-caption {
+    background-image: -moz-linear-gradient(top, transparent, rgba(0,0,0,0.4));
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0,0,0,0.4));
+    background-image: -o-linear-gradient(top, transparent, rgba(0,0,0,0.4));
+    background-image: -ms-linear-gradient(top, transparent, rgba(0,0,0,0.4));
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));
+    bottom: 0;
+    text-align: left;
+    padding: 60px 40px 40px;
+}
+.site-banner.style-two .banner-caption .container {
+    max-width: 100%;
+}
+.site-banner.style-two .banner-caption .cat-links a, .site-banner.style-two .banner-caption .cat-links a::after {
+    color: #fff;
+}
+.site-banner.style-two .banner-caption .banner-title, .site-banner.style-two .item:first-child .banner-caption .banner-title {
+    font-size: 1.3333em;
+    background-image: none;
+    color: #fff;
+}
+.site-banner.style-two .banner-caption .banner-title a {
+    color: #fff;
+}
+.site-banner.style-two .banner-caption .banner-title a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.site-banner.style-two .banner-meta > span {
+    font-size: 0.6666em;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.site-banner.style-two .banner-meta > span::after {
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.25);
+    vertical-align: middle;
+    content: "";
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+.site-banner.style-two .banner-meta > span:last-child::after {
+    display: none;
+}
+.site-banner.style-two .banner-meta > span a {
+    color: #fff;
+}
+.site-banner.style-two .banner-meta > span a:hover {
+    color: var(--primary-color);
+}
+.site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav [class*="owl-"] {
+    left: 2%;
+    background-color: rgba(255,255,255,0.8);
+    border-color: rgba(255,255,255,0.8);
+}
+.site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav .owl-next {
+    left: auto;
+    right: 2%;
+}
+.site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav [class*="owl-"]:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.post-layout-two .site-main {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+}
+.post-layout-two .site-main article {
+    width: 100%;
+    flex: 1;
+    padding-bottom: 60px;
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 60px;
+    margin-left: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    align-items: center;
+    flex-wrap: wrap;
+}
+.post-layout-two .site-main article .post-thumbnail {
+    width: 47%;
+    margin-bottom: 0;
+}
+.post-layout-two .site-main article .content-wrap {
+    width: 53%;
+    padding-left: 30px;
+}
+.post-layout-two .site-main article .content-wrap .entry-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 1024px) {
+.site-header.style-two .site-branding {
+    flex: 1;
+}
+}
+@media screen and (max-width: 767px) {
+.site-header.style-two .container {
+    max-width: 420px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.site-header.style-two .secondary-menu {
+    flex: initial;
+    order: 2;
+}
+.site-header.style-two .site-branding {
+    flex-direction: row;
+    text-align: left;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.site-header.style-two .site-branding .site-logo + .site-title-wrap {
+    padding-left: 15px;
+}
+.site-header.style-two .right {
+    width: 100%;
+    flex: auto;
+    margin-top: 15px;
+    justify-content: center;
+    order: 3;
+}
+.site-banner.style-two .item-wrap {
+    max-width: 420px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.site-banner.style-two .banner-caption {
+    padding: 20px;
+}
+.post-layout-two .site-main article {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+.post-layout-two .site-main article .post-thumbnail {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.post-layout-two .site-main article .content-wrap {
+    width: 100%;
+    padding-left: 0;
+}
+}
+@media only screen and (max-width: 600px) {
+.site-logo	.custom-logo-link img {
+    width: auto;
+}
+.custom-logo-link {
+    margin-right: 40px;
+}
+}
